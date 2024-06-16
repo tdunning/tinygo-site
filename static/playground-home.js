@@ -1,6 +1,8 @@
 import { Simulator } from './playground/simulator.js';
 import { Editor } from './playground/resources/editor.bundle.min.js';
 
+// This file is for the playground on the home page.
+
 // Note: to test this locally, run the playground server!
 // Run the following in a terminal:
 //

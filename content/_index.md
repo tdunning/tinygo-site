@@ -31,7 +31,7 @@ Ready to get started? [Click here](getting-started).
 {{% blocks/section color="primary-light" %}}
 <link rel="stylesheet" href="playground/simulator.css">
 <link rel="stylesheet" href="playground/simulator-bootstrap.css">
-<script type="module" src="playground.js"></script>
+<script type="module" src="playground-home.js"></script>
 <link rel="modulepreload" href="/playground/resources/editor.bundle.min.js"/>
 <div class="col">
 	<div class="container" id="playground">
