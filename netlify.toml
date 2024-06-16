@@ -21,6 +21,13 @@
     Cross-Origin-Opener-Policy = "same-origin"
     Cross-Origin-Embedder-Policy = "require-corp"
 
+# Internal redirect for playground share URLs.
+[[redirects]]
+  force = false
+  from = "/play/s/*"
+  to = "/play/"
+  status = 200
+
 [[redirects]]
   from = "/bluetooth"
   to = "https://github.com/tinygo-org/bluetooth#go-bluetooth"

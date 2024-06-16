@@ -60,7 +60,7 @@ Ready to get started? [Click here](getting-started).
 {{% /blocks/section %}}
 
 {{< blocks/section color="primary" type="row" >}}
-{{% blocks/feature icon="fa-lightbulb" title="TinyGo Playground" url="https://play.tinygo.org/" %}}
+{{% blocks/feature icon="fa-lightbulb" title="TinyGo Playground" url="/play/" %}}
 Try TinyGo online
 {{% /blocks/feature %}}
 

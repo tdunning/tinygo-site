@@ -1,0 +1,6 @@
+# Internal redirect for playground share URLs.
+[[redirects]]
+  force = false
+  from = "/play/s/*"
+  to = "/play/"
+  status = 200
