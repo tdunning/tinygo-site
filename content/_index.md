@@ -77,16 +77,25 @@ Ready to get started? [Click here](getting-started).
 						<button class="nav-link" id="simulator-properties-tab" data-bs-toggle="tab" data-bs-target="#simulator-panel-properties" type="button" role="tab" aria-controls="simulator-panel-properties" aria-selected="false">Properties</button>
 					</li>
 					<li class="nav-item" role="presentation">
+						<button class="nav-link" id="simulator-power-tab" data-bs-toggle="tab" data-bs-target="#simulator-panel-power" type="button" role="tab" aria-controls="simulator-panel-power" aria-selected="false">Power</button>
+					</li>
+					<li class="nav-item" role="presentation">
 						<button class="nav-link" id="simulator-add-tab" data-bs-toggle="tab" data-bs-target="#simulator-panel-add" type="button" role="tab" aria-controls="simulator-panel-add" aria-selected="false">Add</button>
 					</li>
 				</ul>
 			</div>
 			<div class="tab-content">
 				<div class="tab-pane active terminal-box" id="simulator-panel-terminal" role="tabpanel" aria-labelledby="simulator-tab-terminal">
-					<textarea class="terminal" readonly tabindex="0"></textarea>
+					<div class="terminal" tabindex="0"></div>
 				</div>
 				<div class="tab-pane panel-properties content" id="simulator-panel-properties" role="tabpanel" aria-labelledby="simulator-properties-tab">
 					<div class="content" tabindex="0"></div>
+				</div>
+				<div class="tab-pane panel-power content" id="simulator-panel-power" role="tabpanel" aria-labelledby="simulator-power-tab">
+					<div class="content" tabindex="0">
+						<div class="power-table">Loading...</div>
+						<p class="mb-0 mt-3"><strong>Note:</strong> these numbers are estimates, based on datasheets and measurements. They don't include everything and may be wrong.</p>
+					</div>
 				</div>
 				<div class="tab-pane" id="simulator-panel-add" role="tabpanel" aria-labelledby="simulator-add-tab" tabindex="0">
 					<div class="panel-add">
